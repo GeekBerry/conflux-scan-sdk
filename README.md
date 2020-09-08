@@ -3,7 +3,7 @@
 ## Usage
 
 ```javascript
-const { ScanSDK } = require('conflux-scan-sdk');
+const { ScanSDK } = require('@geekberry/conflux-scan-sdk');
 
 const sdk = new ScanSDK({
   url: 'http://127.0.0.1:8885',
