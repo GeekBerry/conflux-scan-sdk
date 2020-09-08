@@ -1,7 +1,7 @@
 ---
 id: scan_sdk
 title: Conflux Scan Backend SDK
-custom_edit_url: https://github.com/Conflux-Dev/conflux-scan-backend/tree/master/scan-sdk/api.md
+custom_edit_url: https://github.com/GeekBerry/conflux-scan-sdk/blob/master/api.md
 keywords:
   - conflux
   - scan
