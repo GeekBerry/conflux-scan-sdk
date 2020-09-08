@@ -298,9 +298,9 @@ options.limit | `number` | false    | 10      |
 
 * **Returns**
 
-`Promise.<Array.<array>>` matrix of dag graph
-- matrix: (array of epoch block list)
-  - array: (block list of epoch)
+`Promise.<object>` dag information object
+- list `array`: (array of epoch block list)
+  - `array`: (block list of epoch)
     - epochNumber `number`:
     - hash `string`: block hash
     - parentHash `string`: parent block hash
@@ -330,8 +330,8 @@ options.duration | `string` | false    | 'day'   | enum of ['hour','day','month'
 
 * **Returns**
 
-`Promise.<Array.<object>>` list of statistic
-- array:
+`Promise.<object>` list of statistic
+- list `array`:
   - tps `string`: number string
   - blockTime `string`: number string
   - difficulty `string`: number string

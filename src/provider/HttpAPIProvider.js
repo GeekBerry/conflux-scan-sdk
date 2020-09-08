@@ -61,13 +61,9 @@ class HttpAPIProvider {
         return this._get('/api/transfer/list', ...params);
 
       case 'dag':
-        // TODO just return matrix
-        const { list: matrix } = await this._get('/api/dashboard/dag', ...params);
-        return matrix;
+        return this._get('/api/dashboard/dag', ...params);
       case 'plot':
-        // TODO just return list
-        const { list } = await this._get('/api/dashboard/plot', ...params);
-        return list;
+        return this._get('/api/dashboard/plot', ...params);
       case 'trend':
         return this._get('/api/dashboard/trend', ...params);
 

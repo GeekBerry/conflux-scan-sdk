@@ -242,9 +242,9 @@ class ScanSDK {
    * @param [options] {object}
    * @param [options.limit=10] {number}
    *
-   * @return {Promise<array[]>} matrix of dag graph
-   * - matrix: (array of epoch block list)
-   *   - array: (block list of epoch)
+   * @return {Promise<object>} dag information object
+   * - list `array`: (array of epoch block list)
+   *   - `array`: (block list of epoch)
    *     - epochNumber `number`:
    *     - hash `string`: block hash
    *     - parentHash `string`: parent block hash
@@ -271,8 +271,8 @@ class ScanSDK {
   /**
    * @param [options] {object}
    * @param [options.duration='day'] {string} - enum of ['hour','day','month','all']
-   * @return {Promise<object[]>} list of statistic
-   * - array:
+   * @return {Promise<object>} list of statistic
+   * - list `array`:
    *   - tps `string`: number string
    *   - blockTime `string`: number string
    *   - difficulty `string`: number string
